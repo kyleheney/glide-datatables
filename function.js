@@ -44,6 +44,7 @@ window.function = function (table, tableID, buttons, colReorder, domOptions) {
     ${BASE_OPTIONS}
     ${EXPORT_OPTIONS}
     ${COLVIS_OPTIONS}
+    ${FIXED_COLUMNS}
     ${COLREORDER_OPTIONS}
   </head>
   <body>
