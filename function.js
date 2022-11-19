@@ -8,7 +8,7 @@ window.function = function (table, tableID, buttons, colReorder, domOptions) {
   const BASE_OPTIONS = `
     <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.4.0/js/dataTables.responsive.js"></script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.3.1/js/dataTables.fixedHeader.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
     `;
 
