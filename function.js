@@ -25,11 +25,6 @@ window.function = function (table, tableID, buttons, colReorder, domOptions) {
     <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.colVis.min.js"></script>
   `;
 
-  const FIXED_COLUMNS = `
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedcolumns/4.2.1/css/fixedColumns.dataTables.min.css">
-    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedcolumns/4.2.1/js/dataTables.fixedColumns.js"></script>
-    ` : '';
-
   const COLREORDER_OPTIONS = col_ordering === true ? 
     `
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/colreorder/1.5.6/css/colReorder.dataTables.min.csss">
@@ -44,7 +39,6 @@ window.function = function (table, tableID, buttons, colReorder, domOptions) {
     ${BASE_OPTIONS}
     ${EXPORT_OPTIONS}
     ${COLVIS_OPTIONS}
-    ${FIXED_COLUMNS}
     ${COLREORDER_OPTIONS}
   </head>
   <body>
