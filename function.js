@@ -8,7 +8,6 @@ window.function = function (table, tableID, buttons, colReorder, domOptions) {
   const BASE_OPTIONS = `
     <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedcolumns/4.2.1/js/dataTables.fixedColumns.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
     `;
 
@@ -25,6 +24,11 @@ window.function = function (table, tableID, buttons, colReorder, domOptions) {
   const COLVIS_OPTIONS = `
     <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.colVis.min.js"></script>
   `;
+
+  const FIXED_COLUMNS = `
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedcolumns/4.2.1/css/fixedColumns.dataTables.min.css">
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedcolumns/4.2.1/js/dataTables.fixedColumns.js"></script>
+    ` : '';
 
   const COLREORDER_OPTIONS = col_ordering === true ? 
     `
